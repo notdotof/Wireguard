@@ -132,15 +132,15 @@ EOF
 start_menu(){
     clear
     echo "\033[43;42m ====================================\033[0m"
-    echo "\033[43;42m 介绍：wireguard一键脚本             \033[0m"
-    echo "\033[43;42m 系统：Ubuntu                        \033[0m"
-    echo "\033[43;42m 作者：jasminebd                     \033[0m"
-    echo "\033[43;42m 博客：https://blog.jasmines.ml      \033[0m"
+    echo "\033[43;42m 介绍：Wireguard一键脚本             \033[0m"
+    echo "\033[43;42m 系统：Ubuntu                       \033[0m"
+    echo "\033[43;42m 作者：jasminebd                    \033[0m"
+    echo "\033[43;42m 博客：https://blog.jasmines.ml     \033[0m"
     echo "\033[43;42m ====================================\033[0m"
     echo
-    echo "\033[0;33m 1. 安装wireguard\033[0m"
+    echo "\033[0;33m 1. 安装Wireguard\033[0m"
     echo "\033[0;33m 2. 查看客户端二维码\033[0m"
-    echo "\033[0;31m 3. 删除wireguard\033[0m"
+    echo "\033[0;31m 3. 删除Wireguard\033[0m"
     echo "\033[0;33m 4. 增加用户\033[0m"
     echo " 0. 退出脚本"
     echo
