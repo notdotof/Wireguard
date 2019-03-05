@@ -114,7 +114,7 @@ add_user(){
     cp client.conf $newname.conf
     wg genkey | tee temprikey | wg pubkey > tempubkey
     ipnum=$(grep Allowed /etc/wireguard/wg0.conf | tail -1 | awk -F '[ ./]' '{print $6}')
-    newnum=$((10${ipnum}+1))
+    newnum=$((${ipnum}+1))
     sed -i 's%^PrivateKey.*$%'"PrivateKey = $(cat temprikey)"'%' $newname.conf
     sed -i 's%^Address.*$%'"Address = 10.0.0.$newnum\/24"'%' $newname.conf
 
@@ -132,7 +132,7 @@ EOF
 start_menu(){
     clear
     echo "\033[43;42m ====================================\033[0m"
-    echo "\033[43;42m 介绍：wireguard一键脚本              \033[0m"
+    echo "\033[43;42m 介绍：wireguard一键脚本             \033[0m"
     echo "\033[43;42m 系统：Ubuntu                        \033[0m"
     echo "\033[43;42m ====================================\033[0m"
     echo
