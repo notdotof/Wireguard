@@ -133,9 +133,9 @@ start_menu(){
     clear
     echo "\033[43;42m ====================================\033[0m"
     echo "\033[43;42m 介绍：wireguard一键脚本             \033[0m"
-    echo "\033[43;42m 系统：Ubuntu                         \033[0m"
-    echo "\033[43;42m 作者：jasminebd                      \033[0m"
-    echo "\033[43;42m 博客：https://blog.jasmines.ml       \033[0m"
+    echo "\033[43;42m 系统：Ubuntu                        \033[0m"
+    echo "\033[43;42m 作者：jasminebd                     \033[0m"
+    echo "\033[43;42m 博客：https://blog.jasmines.ml      \033[0m"
     echo "\033[43;42m ====================================\033[0m"
     echo
     echo "\033[0;33m 1. 安装wireguard\033[0m"
