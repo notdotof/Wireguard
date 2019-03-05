@@ -19,3 +19,6 @@ Client Configuration File
 ``` bash
 /etc/wireguard/client.conf
 ```
+
+# Screenshots
+![Screenshots](https://github.com/jasminebd/Wireguard/blob/master/Screenshots.png?raw=true)
