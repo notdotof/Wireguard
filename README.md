@@ -22,3 +22,19 @@ Client Configuration File
 
 # Screenshots
 ![Screenshots](https://github.com/jasminebd/Wireguard/blob/master/Screenshots.png?raw=true)
+
+
+Start Up WireGuard
+``` bash
+wg-quick up wg0
+```
+
+Stop WireGuard
+``` bash
+wg-quick down wg0
+```
+
+View WireGuard Operating status
+``` bash
+wg
+```
