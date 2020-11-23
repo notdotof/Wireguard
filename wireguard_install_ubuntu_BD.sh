@@ -58,7 +58,7 @@ sudo cat > /etc/wireguard/client.conf <<-EOF
 [Interface]
 PrivateKey = $c1
 Address = 10.0.0.2/24
-DNS = 8.8.8.8
+DNS = 1.1.1.1
 MTU = 1420
 
 [Peer]
